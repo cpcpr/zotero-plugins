@@ -7,6 +7,4 @@ export interface BlacklistEntry {
 }
 
 /** Store exclusions are maintained locally and never overwritten by upstream sync. */
-export const pluginBlacklist: BlacklistEntry[] = [
-  { repo: 'wdcpclover/ai4paper', reason: 'Removed from the store at the maintainer’s request.' },
-]
+export const pluginBlacklist: BlacklistEntry[] = []
