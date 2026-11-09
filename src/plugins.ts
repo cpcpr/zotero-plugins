@@ -6,14 +6,34 @@ export const plugins: PluginInfoBase[] = [
     repo: '018/zotcard',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v4.0',
+        assetName: 'zotcard-4.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v4.0',
+        assetName: 'zotcard-4.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v4.0',
+        assetName: 'zotcard-4.0.1.xpi',
+      },
+      {
         targetZoteroVersion: '7',
-        tagName: 'v3.3',
-        assetName: 'zotcard-3.3.0.xpi',
+        tagName: 'v4.0',
+        assetName: 'zotcard-4.0.1.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: 'v2.8',
         assetName: 'zotcard-2.8.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v3.3',
+        assetName: 'zotcard-3.3.0.xpi',
       },
     ],
     tags: [
@@ -24,6 +44,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: '018/zotero-excalidraw',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v2.0',
+        assetName: 'zotero-excalidraw-2.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v2.0',
+        assetName: 'zotero-excalidraw-2.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v2.0',
+        assetName: 'zotero-excalidraw-2.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v2.0',
+        assetName: 'zotero-excalidraw-2.0.0.xpi',
+      },
       {
         targetZoteroVersion: '7',
         tagName: 'v1.1',
@@ -53,6 +93,26 @@ export const plugins: PluginInfoBase[] = [
     repo: '1ywan/zotero-odh',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v0.3.6',
+        assetName: 'zotero-odh.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.6',
+        assetName: 'zotero-odh.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.3.6',
+        assetName: 'zotero-odh.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.3.6',
+        assetName: 'zotero-odh.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v0.3.5',
         assetName: 'zotero-odh.xpi',
@@ -69,6 +129,21 @@ export const plugins: PluginInfoBase[] = [
       {
         targetZoteroVersion: '9',
         tagName: 'custom',
+        customLink: 'https://github.com/4965898/Zotero-AI-OCR/releases/download/v1.11.0/ai-ocr.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'custom',
+        customLink: 'https://github.com/4965898/Zotero-AI-OCR/releases/download/v1.11.0/ai-ocr.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'custom',
+        customLink: 'https://github.com/4965898/Zotero-AI-OCR/releases/download/v1.11.0/ai-ocr.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'custom',
         customLink: 'https://github.com/4965898/Zotero-AI-OCR/releases/download/v1.9.7/ai-ocr.xpi',
       },
     ],
@@ -79,10 +154,75 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: '4season/zotero-reading-shelf',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.3.9',
+        assetName: 'zotero-reading-shelf-1.3.9.xpi',
+      },
+    ],
+    tags: [
+      'interface',
+      'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: '54yyyu/zotero-mcp',
+    releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.15.2',
+        assetName: 'zotero-agent.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'integration',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: '6forwater29/citation-dialogue',
     nameZh: '文献对话',
     summaryZh: '查看论文引文图谱，连接 Obsidian、Notion 和本地 MCP。',
-    keywords: ['引文图谱', 'Obsidian', 'Notion', 'MCP'],
+    keywords: [
+      '引文图谱',
+      'Obsidian',
+      'Notion',
+      'MCP',
+    ],
     releases: [],
     tags: [
       'visualization',
@@ -138,7 +278,10 @@ export const plugins: PluginInfoBase[] = [
     repo: 'AlexGrandbell/zotero-wdim',
     nameZh: '和意为',
     summaryZh: '在 PDF 选区或页面添加问号批注，标记阅读疑问。',
-    keywords: ['问号', '批注'],
+    keywords: [
+      '问号',
+      '批注',
+    ],
     releases: [],
     tags: [
       'reader',
@@ -256,6 +399,26 @@ export const plugins: PluginInfoBase[] = [
     repo: 'Ares960826/zotero-grouptag',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v1.2.1',
+        assetName: 'zotero-grouptag.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.2.1',
+        assetName: 'zotero-grouptag.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.2.1',
+        assetName: 'zotero-grouptag.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.2.1',
+        assetName: 'zotero-grouptag.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v1.2.0',
         assetName: 'zotero-grouptag.xpi',
@@ -284,6 +447,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'Asianfleet/mineru-for-zotero',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.9.8',
+        assetName: 'mineru-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.9.8',
+        assetName: 'mineru-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.9.8',
+        assetName: 'mineru-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.9.8',
+        assetName: 'mineru-for-zotero.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.9.4',
@@ -321,6 +504,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.2.0',
+        assetName: 'Deepseek.Copliot-1.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.2.0',
+        assetName: 'Deepseek.Copliot-1.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.2.0',
+        assetName: 'Deepseek.Copliot-1.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.2.0',
+        assetName: 'Deepseek.Copliot-1.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v1.0.1',
         assetName: 'Deepseek.Copliot-1.0.1.xpi',
       },
@@ -332,8 +535,32 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'Ausanx/zotero-card-library',
+    releases: [
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.3',
+        assetName: 'zotero-card-library.xpi',
+      },
+    ],
+    tags: [
+      'interface',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'Avi7ii/Zotero-glass',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.50',
+        assetName: 'Zotero-Glass-0.2.50.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.50',
+        assetName: 'Zotero-Glass-0.2.50.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.2.49',
@@ -392,6 +619,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.9.5',
+        assetName: 'bibgenie-0.9.5.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.9.5',
+        assetName: 'bibgenie-0.9.5.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.9.5',
+        assetName: 'bibgenie-0.9.5.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.9.5',
+        assetName: 'bibgenie-0.9.5.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.9.1',
         assetName: 'bibgenie-0.9.1.xpi',
       },
@@ -404,6 +651,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'ben-AI-cybersec/zotero-publication-rankings',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.4.0',
+        assetName: 'publication-rankings-0.4.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.4.0',
+        assetName: 'publication-rankings-0.4.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.4.0',
+        assetName: 'publication-rankings-0.4.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.4.0',
+        assetName: 'publication-rankings-0.4.0.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.3.2',
@@ -419,6 +686,11 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'bionux-th/Zotero-Translate-for-ReadingMode',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'V1.1.0',
+        assetName: 'translate-for-readingmode-1.1.0.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'V1.0.0',
@@ -513,6 +785,21 @@ export const plugins: PluginInfoBase[] = [
     ],
     tags: [
       'utility',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'Cabdoge/pdf2notelink',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.4.0',
+        assetName: 'pdf2notelink-0.4.0.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+      'notes',
     ],
     discoverReleases: true,
   },
@@ -702,8 +989,31 @@ export const plugins: PluginInfoBase[] = [
       '样式记忆',
       '复制粘贴',
     ],
-    releases: [],
-    tags: ['reader'],
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-desktop-annotation.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-desktop-annotation.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-desktop-annotation.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-desktop-annotation.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
@@ -733,6 +1043,31 @@ export const plugins: PluginInfoBase[] = [
     ],
     tags: [
       'metadata',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'cube-lover/paperloom',
+    releases: [
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.9.6',
+        assetName: 'paperloom-0.9.6.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.9.6',
+        assetName: 'paperloom-0.9.6.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.9.6',
+        assetName: 'paperloom-0.9.6.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+      'ai',
     ],
     discoverReleases: true,
   },
@@ -808,6 +1143,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.1.7',
+        assetName: 'center-pdf.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.7',
+        assetName: 'center-pdf.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.7',
+        assetName: 'center-pdf.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.7',
+        assetName: 'center-pdf.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.1.5',
         assetName: 'center-pdf.xpi',
       },
@@ -818,9 +1173,28 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'daxiaxiong88/zotero-research',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.9.6',
+        assetName: 'zotero-research-0.9.6.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'dcy456/kokoro-reader',
     summaryZh: '基于 Kokoro TTS 的离线 PDF 朗读，支持朗读单词。',
-    keywords: ['朗读', '语音', 'TTS'],
+    keywords: [
+      '朗读',
+      '语音',
+      'TTS',
+    ],
     releases: [],
     tags: [
       'reader',
@@ -834,12 +1208,32 @@ export const plugins: PluginInfoBase[] = [
       {
         targetZoteroVersion: '10',
         tagName: 'custom',
-        customLink: 'https://github.com/zotero-cita/zotero-cita/releases/download/v1.0.0-beta.28/zotero-cita.xpi',
+        customLink: 'https://github.com/zotero-cita/zotero-cita/releases/download/v1.0.0/zotero-cita.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'custom',
+        customLink: 'https://github.com/zotero-cita/zotero-cita/releases/download/v1.0.0/zotero-cita.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'custom',
+        customLink: 'https://github.com/zotero-cita/zotero-cita/releases/download/v1.0.0/zotero-cita.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'custom',
+        customLink: 'https://github.com/zotero-cita/zotero-cita/releases/download/v1.0.0/zotero-cita.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: 'v0.5.5',
         assetName: 'zotero-cita-v0.5.5.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'custom',
+        customLink: 'https://github.com/zotero-cita/zotero-cita/releases/download/v1.0.0-beta.28/zotero-cita.xpi',
       },
     ],
     tags: [
@@ -864,6 +1258,36 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'Dirreke/zotero-metadata-translator',
     releases: [
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v0.3.1',
+        assetName: 'metadata-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.3.1',
+        assetName: 'metadata-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.3.1',
+        assetName: 'metadata-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.1',
+        assetName: 'metadata-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.3.1',
+        assetName: 'metadata-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.3.1',
+        assetName: 'metadata-translator.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.3.0',
@@ -908,13 +1332,33 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v1.7.0',
+        tagName: 'v1.7.1',
+        assetName: 'zotero-reading-list.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.7.1',
+        assetName: 'zotero-reading-list.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.7.1',
+        assetName: 'zotero-reading-list.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.7.1',
         assetName: 'zotero-reading-list.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: 'v0.3.2',
         assetName: 'zotero-reading-list-0.3.2.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.7.0',
+        assetName: 'zotero-reading-list.xpi',
       },
     ],
     tags: [
@@ -954,7 +1398,11 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'DreamPerday/PaperLens-Zotero',
     summaryZh: '在 PDF 阅读器侧栏进行论文问答、逐段注解和证据核对。',
-    keywords: ['论文问答', '精读', '证据核对'],
+    keywords: [
+      '论文问答',
+      '精读',
+      '证据核对',
+    ],
     releases: [],
     tags: [
       'ai',
@@ -1053,6 +1501,21 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'EEEEgoose/ocrflow',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.5.8',
+        assetName: 'ocrflow-1.5.8.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'attachment',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'egh/zotxt',
     releases: [
       {
@@ -1072,6 +1535,55 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'elsevoid/zotero-close-to-tray',
+    releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'v1.0.1',
+        assetName: 'close-to-tray-1.0.1.xpi',
+      },
+    ],
+    tags: [
+      'utility',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'endoretic/zotero-wallpaper',
     releases: [
       {
@@ -1082,6 +1594,36 @@ export const plugins: PluginInfoBase[] = [
     ],
     tags: [
       'interface',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'equalang/equalang-zotero-plugin',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'custom',
+        customLink: 'https://equalang-files-prod-1303007683.cos.ap-hongkong.myqcloud.com/releases/zotero/0.1.8/equalang-0.1.8.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'custom',
+        customLink: 'https://equalang-files-prod-1303007683.cos.ap-hongkong.myqcloud.com/releases/zotero/0.1.8/equalang-0.1.8.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'custom',
+        customLink: 'https://equalang-files-prod-1303007683.cos.ap-hongkong.myqcloud.com/releases/zotero/0.1.8/equalang-0.1.8.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'custom',
+        customLink: 'https://equalang-files-prod-1303007683.cos.ap-hongkong.myqcloud.com/releases/zotero/0.1.8/equalang-0.1.8.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'reader',
     ],
     discoverReleases: true,
   },
@@ -1137,6 +1679,26 @@ export const plugins: PluginInfoBase[] = [
     repo: 'Fangziyang0910/zotero-ccf-plus',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v0.3.4',
+        assetName: 'zotero-ccf-plus.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.4',
+        assetName: 'zotero-ccf-plus.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.3.4',
+        assetName: 'zotero-ccf-plus.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.3.4',
+        assetName: 'zotero-ccf-plus.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v0.3.2',
         assetName: 'zotero-ccf-plus.xpi',
@@ -1150,6 +1712,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'federicotorrielli/zotero-metadata-hunter',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.9.0',
+        assetName: 'metadatahunter%40federicotorrielli.github.io-0.9.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.8.1',
+        assetName: 'metadatahunter%40federicotorrielli.github.io-0.8.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.8.1',
+        assetName: 'metadatahunter%40federicotorrielli.github.io-0.8.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.8.1',
+        assetName: 'metadatahunter%40federicotorrielli.github.io-0.8.1.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.8.0',
@@ -1181,7 +1763,7 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v4.0.3',
+        tagName: 'v4.1.2',
         assetName: 'zotero-inspire.xpi',
       },
       {
@@ -1193,6 +1775,11 @@ export const plugins: PluginInfoBase[] = [
         targetZoteroVersion: '6',
         tagName: '0.2.20',
         assetName: 'zotero-inspire-0.2.20.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v4.0.3',
+        assetName: 'zotero-inspire.xpi',
       },
     ],
     tags: [
@@ -1247,14 +1834,39 @@ export const plugins: PluginInfoBase[] = [
     repo: 'frianasoa/Ze-Notes',
     releases: [
       {
+        targetZoteroVersion: '11',
+        tagName: 'v1.2.3',
+        assetName: 'zenotes-v1.2.3.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.2.3',
+        assetName: 'zenotes-v1.2.3.xpi',
+      },
+      {
         targetZoteroVersion: '9',
-        tagName: 'v1.2.0',
-        assetName: 'zenotes-v1.2.0.xpi',
+        tagName: 'v1.2.3',
+        assetName: 'zenotes-v1.2.3.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.2.3',
+        assetName: 'zenotes-v1.2.3.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.2.3',
+        assetName: 'zenotes-v1.2.3.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: 'v1.0.0-beta006',
         assetName: 'zenotes-v1.0.0-beta006.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.2.0',
+        assetName: 'zenotes-v1.2.0.xpi',
       },
     ],
     tags: [
@@ -1379,6 +1991,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.9.0',
+        assetName: 'ccf-rank.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.9.0',
+        assetName: 'ccf-rank.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.9.0',
+        assetName: 'ccf-rank.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.9.0',
+        assetName: 'ccf-rank.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v1.8.0',
         assetName: 'ccf-rank.xpi',
       },
@@ -1391,6 +2023,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'guaguastandup/zotero-pdf2zh',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v4.1.8',
+        assetName: 'zotero-pdf-2-zh.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v4.1.8',
+        assetName: 'zotero-pdf-2-zh.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v4.1.8',
+        assetName: 'zotero-pdf-2-zh.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v4.1.8',
+        assetName: 'zotero-pdf-2-zh.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v4.1.8',
+        assetName: 'zotero-pdf-2-zh.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v4.1.7',
@@ -1410,6 +2067,11 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.8.3',
+        assetName: 'zotero-codex-0.8.3.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'custom',
         customLink: 'https://github.com/haohaomin/zotero-codex/releases/download/v0.8.3/zotero-codex-0.8.3.xpi',
       },
@@ -1417,6 +2079,36 @@ export const plugins: PluginInfoBase[] = [
     tags: [
       'ai',
       'notes',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'haohaomin/zotero-except',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.3',
+        assetName: 'zotero-except-1.0.3.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.3',
+        assetName: 'zotero-except-1.0.3.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.3',
+        assetName: 'zotero-except-1.0.3.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.3',
+        assetName: 'zotero-except-1.0.3.xpi',
+      },
+    ],
+    tags: [
+      'utility',
+      'interface',
     ],
     discoverReleases: true,
   },
@@ -1453,6 +2145,16 @@ export const plugins: PluginInfoBase[] = [
     repo: 'heimi98/zotero-deduplicator',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v1.2.1',
+        assetName: 'zotero-pdf-deduplicator.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.2.1',
+        assetName: 'zotero-pdf-deduplicator.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v1.2.0',
         assetName: 'zotero-pdf-deduplicator.xpi',
@@ -1468,6 +2170,16 @@ export const plugins: PluginInfoBase[] = [
     repo: 'heimi98/zotero-figure-overview',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v0.3.1',
+        assetName: 'zotero-figure-overview.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.1',
+        assetName: 'zotero-figure-overview.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v0.3.0',
         assetName: 'zotero-figure-overview.xpi',
@@ -1482,6 +2194,16 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'heimi98/zotero-random-read',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.3.2',
+        assetName: 'zotero-random-read.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.2',
+        assetName: 'zotero-random-read.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.3.1',
@@ -1528,6 +2250,30 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'Huaisure/zotero-quick-copy-pdf',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.2.0',
+        assetName: 'quick-copy-pdf-1.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.2.0',
+        assetName: 'quick-copy-pdf-1.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.2.0',
+        assetName: 'quick-copy-pdf-1.2.0.xpi',
+      },
+    ],
+    tags: [
+      'attachment',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'Huoyuuu/zotero-ai-latex',
     releases: [
       {
@@ -1560,6 +2306,31 @@ export const plugins: PluginInfoBase[] = [
     repo: 'ievlevpn/zotero-djvu-converter',
     releases: [
       {
+        targetZoteroVersion: '11',
+        tagName: 'v1.11.1',
+        assetName: 'djvu-converter-1.11.1.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.11.1',
+        assetName: 'djvu-converter-1.11.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.11.1',
+        assetName: 'djvu-converter-1.11.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.11.1',
+        assetName: 'djvu-converter-1.11.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.11.1',
+        assetName: 'djvu-converter-1.11.1.xpi',
+      },
+      {
         targetZoteroVersion: '8',
         tagName: 'v1.11.0',
         assetName: 'djvu-converter-1.11.0.xpi',
@@ -1573,6 +2344,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'ievlevpn/zotero-feed-riffle',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.29.0',
+        assetName: 'feed-riffle.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.29.0',
+        assetName: 'feed-riffle.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.29.0',
+        assetName: 'feed-riffle.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.29.0',
+        assetName: 'feed-riffle.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.29.0',
+        assetName: 'feed-riffle.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.28.0',
@@ -1614,14 +2410,39 @@ export const plugins: PluginInfoBase[] = [
         assetName: 'latex-suite.xpi',
       },
       {
+        targetZoteroVersion: '11',
+        tagName: 'v0.6.4',
+        assetName: 'latex-suite.xpi',
+      },
+      {
         targetZoteroVersion: '10',
-        tagName: 'v0.5.4',
+        tagName: 'v0.6.4',
+        assetName: 'latex-suite.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.6.4',
+        assetName: 'latex-suite.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.6.4',
+        assetName: 'latex-suite.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.6.4',
         assetName: 'latex-suite.xpi',
       },
       {
         targetZoteroVersion: '7',
         tagName: 'v0.3.1',
         assetName: 'latex-snippets.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.5.4',
+        assetName: 'latex-suite.xpi',
       },
     ],
     tags: [
@@ -1633,6 +2454,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'ievlevpn/zotero-sentence-focus',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.41.3',
+        assetName: 'sentence-focus.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.41.3',
+        assetName: 'sentence-focus.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.41.3',
+        assetName: 'sentence-focus.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.41.3',
+        assetName: 'sentence-focus.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.41.3',
+        assetName: 'sentence-focus.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.41.0',
@@ -1669,17 +2515,27 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '11',
+        tagName: 'v0.11.1',
+        assetName: 'tag-explorer.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.11.1',
+        assetName: 'tag-explorer.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.0',
+        assetName: 'tag-explorer.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
         tagName: 'v0.10.3',
         assetName: 'tag-explorer.xpi',
       },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.11.0',
-        assetName: 'tag-explorer.xpi',
-      },
-      {
-        targetZoteroVersion: '9',
-        tagName: 'v0.2.0',
         assetName: 'tag-explorer.xpi',
       },
     ],
@@ -1691,6 +2547,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'ievlevpn/zotero-tag-fuzzy-search',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.3.4',
+        assetName: 'tag-fuzzy-search.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.3.4',
+        assetName: 'tag-fuzzy-search.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.4',
+        assetName: 'tag-fuzzy-search.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.3.4',
+        assetName: 'tag-fuzzy-search.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.3.4',
+        assetName: 'tag-fuzzy-search.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.3.3',
@@ -1712,6 +2593,31 @@ export const plugins: PluginInfoBase[] = [
         assetName: 'theorem-list.xpi',
       },
       {
+        targetZoteroVersion: '11',
+        tagName: 'v0.7.3',
+        assetName: 'theorem-list.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.7.3',
+        assetName: 'theorem-list.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.7.3',
+        assetName: 'theorem-list.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.7.3',
+        assetName: 'theorem-list.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.7.3',
+        assetName: 'theorem-list.xpi',
+      },
+      {
         targetZoteroVersion: '10',
         tagName: 'v0.7.2',
         assetName: 'theorem-list.xpi',
@@ -1726,13 +2632,23 @@ export const plugins: PluginInfoBase[] = [
     repo: 'ievlevpn/zotero-time-tracking',
     releases: [
       {
+        targetZoteroVersion: '11',
+        tagName: 'v0.43.2',
+        assetName: 'reading-time.xpi',
+      },
+      {
         targetZoteroVersion: '10',
-        tagName: 'v0.43.1',
+        tagName: 'v0.43.2',
         assetName: 'reading-time.xpi',
       },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.14.0',
+        assetName: 'reading-time.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.43.1',
         assetName: 'reading-time.xpi',
       },
     ],
@@ -1814,12 +2730,71 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.2.0-rc1',
+        assetName: 'hjfy-split-reader.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.0-rc1',
+        assetName: 'hjfy-split-reader.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.2.0-rc1',
+        assetName: 'hjfy-split-reader.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.2.0-rc1',
+        assetName: 'hjfy-split-reader.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.1.7',
         assetName: 'hjfy-split-reader.xpi',
       },
     ],
     tags: [
       'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'informalgit/zotero-collection-nav',
+    releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-collection-nav-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-collection-nav-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-collection-nav-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-collection-nav-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-collection-nav-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-collection-nav-1.0.0.xpi',
+      },
+    ],
+    tags: [
+      'interface',
     ],
     discoverReleases: true,
   },
@@ -1875,6 +2850,41 @@ export const plugins: PluginInfoBase[] = [
     repo: 'IrisM6/AlphaPulse',
     releases: [
       {
+        targetZoteroVersion: '13',
+        tagName: 'v1.1.3',
+        assetName: 'alphalikes-v1.1.3.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v1.1.3',
+        assetName: 'alphalikes-v1.1.3.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.4.2',
+        assetName: 'alphapulse-v1.4.2.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.4.2',
+        assetName: 'alphapulse-v1.4.2.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.4.2',
+        assetName: 'alphapulse-v1.4.2.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.4.2',
+        assetName: 'alphapulse-v1.4.2.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.4.2',
+        assetName: 'alphapulse-v1.4.2.xpi',
+      },
+      {
         targetZoteroVersion: '11',
         tagName: 'v1.3.9',
         assetName: 'alphapulse-v1.3.9.xpi',
@@ -1919,7 +2929,11 @@ export const plugins: PluginInfoBase[] = [
     repo: 'JackBlack419/wenxian-yidu',
     nameZh: '文献译读',
     summaryZh: '支持 PDF 分屏、逐段对照、划词和离线翻译。',
-    keywords: ['翻译', '分屏', '离线'],
+    keywords: [
+      '翻译',
+      '分屏',
+      '离线',
+    ],
     releases: [],
     tags: [
       'reader',
@@ -1931,6 +2945,21 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'jadense-ai/jadense-in-zotero',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.6.14',
+        assetName: 'jadense-in-zotero-v0.6.14.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.6.14',
+        assetName: 'jadense-in-zotero-v0.6.14.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.6.14',
+        assetName: 'jadense-in-zotero-v0.6.14.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.6.10',
@@ -1960,6 +2989,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'janbaykara/zotero-syllabus',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.16.1',
+        assetName: 'zotero-syllabus.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.16.1',
+        assetName: 'zotero-syllabus.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.16.1',
+        assetName: 'zotero-syllabus.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.16.1',
+        assetName: 'zotero-syllabus.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.13.3',
@@ -2034,6 +3083,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.26.3',
+        assetName: 'beaver.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.26.3',
+        assetName: 'beaver.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.26.3',
+        assetName: 'beaver.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.26.3',
+        assetName: 'beaver.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.26.0-beta.3',
         assetName: 'beaver.xpi',
       },
@@ -2079,6 +3148,36 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'josesiqueira/zotero-bibliometero',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.0.3',
+        assetName: 'zotero-bibliometero.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.0.3',
+        assetName: 'zotero-bibliometero.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.0.3',
+        assetName: 'zotero-bibliometero.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.0.3',
+        assetName: 'zotero-bibliometero.xpi',
+      },
+    ],
+    tags: [
+      'interface',
+      'metadata',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'josesiqueira/zotero-watch-folder',
     releases: [
       {
@@ -2108,7 +3207,10 @@ export const plugins: PluginInfoBase[] = [
       'AI 对话',
     ],
     releases: [],
-    tags: ['reader', 'ai'],
+    tags: [
+      'reader',
+      'ai',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
@@ -2150,6 +3252,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v3.0.0',
+        assetName: 'flex-annotate.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v3.0.0',
+        assetName: 'flex-annotate.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v3.0.0',
+        assetName: 'flex-annotate.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v3.0.0',
+        assetName: 'flex-annotate.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: '1.1.0',
         assetName: 'flexannotate.xpi',
       },
@@ -2163,6 +3285,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'justinfjx/zotero-ai-collection',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.0.5',
+        assetName: 'zotero-ai-collection.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.0.5',
+        assetName: 'zotero-ai-collection.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.0.5',
+        assetName: 'zotero-ai-collection.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.0.5',
+        assetName: 'zotero-ai-collection.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'v0.0.5',
+        assetName: 'zotero-ai-collection.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.0.4',
@@ -2312,7 +3459,10 @@ export const plugins: PluginInfoBase[] = [
       '中文期刊投稿',
     ],
     releases: [],
-    tags: ['metadata', 'writing'],
+    tags: [
+      'metadata',
+      'writing',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
@@ -2334,6 +3484,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'l0o0/Garden-for-Zotero',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.18',
+        assetName: 'garden_v0.2.18.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.18',
+        assetName: 'garden_v0.2.18.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.2.18',
+        assetName: 'garden_v0.2.18.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.2.18',
+        assetName: 'garden_v0.2.18.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.2.10',
@@ -2365,14 +3535,19 @@ export const plugins: PluginInfoBase[] = [
         assetName: 'jasminum_1.1.35.xpi',
       },
       {
+        targetZoteroVersion: '11',
+        tagName: 'v1.1.44',
+        assetName: 'jasminum_1.1.44.xpi',
+      },
+      {
         targetZoteroVersion: '10',
-        tagName: 'v1.1.40',
-        assetName: 'jasminum_1.1.40.xpi',
+        tagName: 'v1.1.44',
+        assetName: 'jasminum_1.1.44.xpi',
       },
       {
         targetZoteroVersion: '9',
-        tagName: 'v1.1.40',
-        assetName: 'jasminum_1.1.40.xpi',
+        tagName: 'v1.1.44',
+        assetName: 'jasminum_1.1.44.xpi',
       },
       {
         targetZoteroVersion: '7',
@@ -2383,6 +3558,16 @@ export const plugins: PluginInfoBase[] = [
         targetZoteroVersion: '6',
         tagName: 'v0.3.2',
         assetName: 'jasminum-v0.3.2.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.1.40',
+        assetName: 'jasminum_1.1.40.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.1.40',
+        assetName: 'jasminum_1.1.40.xpi',
       },
       {
         targetZoteroVersion: '10',
@@ -2401,13 +3586,23 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v2.8.11',
+        tagName: 'v2.8.13',
+        assetName: 'zotero-magic-for-user.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v2.8.13',
         assetName: 'zotero-magic-for-user.xpi',
       },
       {
         targetZoteroVersion: '8',
         tagName: 'custom',
         customLink: 'https://gitee.com/zotero-chinese/zotero-magic-for-user/raw/master/zotero-magic-for-user.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v2.8.11',
+        assetName: 'zotero-magic-for-user.xpi',
       },
       {
         targetZoteroVersion: '8',
@@ -2425,14 +3620,19 @@ export const plugins: PluginInfoBase[] = [
     repo: 'l0o0/scholar-sketch',
     releases: [
       {
+        targetZoteroVersion: '11',
+        tagName: 'v0.2.26',
+        assetName: 'scholarsketch-v0.2.26.xpi',
+      },
+      {
         targetZoteroVersion: '10',
-        tagName: 'v0.2.3',
-        assetName: 'scholarsketch-v0.2.3.xpi',
+        tagName: 'v0.2.26',
+        assetName: 'scholarsketch-v0.2.26.xpi',
       },
       {
         targetZoteroVersion: '9',
-        tagName: 'v0.2.3',
-        assetName: 'scholarsketch-v0.2.3.xpi',
+        tagName: 'v0.2.26',
+        assetName: 'scholarsketch-v0.2.26.xpi',
       },
       {
         targetZoteroVersion: '8',
@@ -2444,6 +3644,16 @@ export const plugins: PluginInfoBase[] = [
         tagName: 'v0.1.2',
         assetName: 'zotero-markdown.xpi',
       },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.3',
+        assetName: 'scholarsketch-v0.2.3.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.3',
+        assetName: 'scholarsketch-v0.2.3.xpi',
+      },
     ],
     tags: [
       'notes',
@@ -2454,7 +3664,14 @@ export const plugins: PluginInfoBase[] = [
     repo: 'l0o0/tara',
     nameZh: '蒲公英',
     summaryZh: '备份与恢复 Zotero 的插件、配置、引用样式和转换器。',
-    keywords: ['备份', '恢复', '配置', '迁移', 'CSL', '转换器'],
+    keywords: [
+      '备份',
+      '恢复',
+      '配置',
+      '迁移',
+      'CSL',
+      '转换器',
+    ],
     releases: [
       {
         targetZoteroVersion: '10',
@@ -2524,6 +3741,21 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.2.61',
+        assetName: 'better-vertical-tabs-v1.2.61.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.2.61',
+        assetName: 'better-vertical-tabs-v1.2.61.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.2.61',
+        assetName: 'better-vertical-tabs-v1.2.61.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v1.2.5',
         assetName: 'better-vertical-tabs-v1.2.5.xpi',
       },
@@ -2544,14 +3776,67 @@ export const plugins: PluginInfoBase[] = [
       '全文检索',
       '开放获取',
     ],
-    releases: [],
-    tags: ['productivity', 'metadata'],
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v2.3.0',
+        assetName: 'z-search.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.5.0',
+        assetName: 'z-search.xpi',
+      },
+    ],
+    tags: [
+      'metadata',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
   {
+    repo: 'Liozhang/z-transplit',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.18.0',
+        assetName: 'z-transplit-1.18.0-full.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.7.0',
+        assetName: 'z-transplit-1.7.0-full.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.7.0',
+        assetName: 'z-transplit-1.7.0-full.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.7.0',
+        assetName: 'z-transplit-1.7.0-full.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+      'ai',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'lisontowind/zotero-copilot',
     releases: [
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.3.31',
+        assetName: 'zotero-copilot.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.3.31',
+        assetName: 'zotero-copilot.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.3.30',
@@ -2566,6 +3851,21 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'lisontowind/zotero-mineru',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.72',
+        assetName: 'zotero-mineru.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.72',
+        assetName: 'zotero-mineru.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.72',
+        assetName: 'zotero-mineru.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.1.70',
@@ -2593,9 +3893,58 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'LiusirAi/tree-koala',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v2.0.7',
+        assetName: 'tree-koala-2.0.7.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v2.0.7',
+        assetName: 'tree-koala-2.0.7.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v2.0.7',
+        assetName: 'tree-koala-2.0.7.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v2.0.7',
+        assetName: 'tree-koala-2.0.7.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'liuwenbo0/zotero-local-translate',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.2',
+        assetName: 'zotero-local-translate-0.1.2.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'attachment',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'Logan12l/pinyin-for-zotero',
     summaryZh: '修正中文作者多音字姓氏的拼音排序及文档引文顺序。',
-    keywords: ['拼音', '多音字', '作者排序'],
+    keywords: [
+      '拼音',
+      '多音字',
+      '作者排序',
+    ],
     releases: [],
     tags: [
       'metadata',
@@ -2648,6 +3997,41 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'luciferer/zotero-open-router',
+    releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-open-router-0.1.0.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-open-router-0.1.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-open-router-0.1.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-open-router-0.1.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.0',
+        assetName: 'zotero-open-router-0.1.0.xpi',
+      },
+    ],
+    tags: [
+      'attachment',
+      'utility',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'LuckYang1/PDF-to-md',
     releases: [
       {
@@ -2667,12 +4051,96 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.2.1',
+        assetName: 'zotero-2-eagle.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.1',
+        assetName: 'zotero-2-eagle.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.2.0',
         assetName: 'zotero-2-eagle.xpi',
       },
     ],
     tags: [
       'integration',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'Luke-Evan/zotero-keep-window',
+    releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-keep-window-1.0.0.xpi',
+      },
+    ],
+    tags: [
+      'utility',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'lvyrana/papermind-zotero',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.10.0',
+        assetName: 'papermind-connector.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.10.0',
+        assetName: 'papermind-connector.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.10.0',
+        assetName: 'papermind-connector.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.10.0',
+        assetName: 'papermind-connector.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'reader',
     ],
     discoverReleases: true,
   },
@@ -2722,11 +4190,46 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'mapengsen/zotero-title-merge',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.2.0',
+        assetName: 'zotero-title-merge-1.2.0.xpi',
+      },
+    ],
+    tags: [
+      'metadata',
+      'utility',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'max3925vats/zotero-docling',
     releases: [
       {
         targetZoteroVersion: '11',
         tagName: 'v0.3.3',
+        assetName: 'zotero-docling.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.5.0',
+        assetName: 'zotero-docling.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.5.0',
+        assetName: 'zotero-docling.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.5.0',
+        assetName: 'zotero-docling.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.4.0',
         assetName: 'zotero-docling.xpi',
       },
     ],
@@ -2739,6 +4242,41 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'MCXCC303/just-enough-color',
     releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.4',
+        assetName: 'just-enough-color.xpi',
+      },
       {
         targetZoteroVersion: '11',
         tagName: 'v0.1.4-beta.1',
@@ -2762,6 +4300,31 @@ export const plugins: PluginInfoBase[] = [
     tags: [
       'ai',
       'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'meaning-infinite/zotero-color-keys',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.1',
+        assetName: 'zotero-color-keys.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.1',
+        assetName: 'zotero-color-keys.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.1',
+        assetName: 'zotero-color-keys.xpi',
+      },
+    ],
+    tags: [
+      'notes',
+      'interface',
     ],
     discoverReleases: true,
   },
@@ -2826,6 +4389,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'mjthoraval/Weavero',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.0',
+        assetName: 'weavero.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.0',
+        assetName: 'weavero.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.0',
+        assetName: 'weavero.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.0',
+        assetName: 'weavero.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.21.8',
@@ -2900,6 +4483,16 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.3.11',
+        assetName: 'zotero-reading-flow.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.3.11',
+        assetName: 'zotero-reading-flow.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'custom',
         customLink: 'https://github.com/Moonweave-Research/zotero-reading-flow/releases/download/v1.3.6/zotero-reading-flow.xpi',
       },
@@ -2914,14 +4507,39 @@ export const plugins: PluginInfoBase[] = [
     repo: 'MuiseDestiny/eaiser-citation',
     releases: [
       {
+        targetZoteroVersion: '11',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.11/zotero-citation.xpi',
+      },
+      {
         targetZoteroVersion: '10',
         tagName: 'custom',
-        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.7/zotero-citation.xpi',
+        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.11/zotero-citation.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.11/zotero-citation.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.11/zotero-citation.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.11/zotero-citation.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: 'custom',
         customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.3.1/zotero-citation-z7.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-citation/releases/download/0.5.7/zotero-citation.xpi',
       },
     ],
     tags: [
@@ -2932,6 +4550,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'MuiseDestiny/zotero-attanger',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.5.6',
+        assetName: 'zotero-attanger.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.5.6',
+        assetName: 'zotero-attanger.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.5.6',
+        assetName: 'zotero-attanger.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.5.6',
+        assetName: 'zotero-attanger.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.5.6',
+        assetName: 'zotero-attanger.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.5.0',
@@ -2955,7 +4598,10 @@ export const plugins: PluginInfoBase[] = [
       '证据检索',
     ],
     releases: [],
-    tags: ['ai', 'integration'],
+    tags: [
+      'ai',
+      'integration',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
@@ -2992,14 +4638,24 @@ export const plugins: PluginInfoBase[] = [
         assetName: 'zotero-gpt.xpi',
       },
       {
+        targetZoteroVersion: '11',
+        tagName: 'ethereal',
+        assetName: 'zotero-gpt.xpi',
+      },
+      {
         targetZoteroVersion: '10',
-        tagName: 'custom',
-        customLink: 'https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-gpt.xpi',
+        tagName: 'ethereal',
+        assetName: 'zotero-gpt.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: '0.2.8',
         assetName: 'zotero-gpt.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'custom',
+        customLink: 'https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-gpt.xpi',
       },
     ],
     tags: [
@@ -3032,6 +4688,21 @@ export const plugins: PluginInfoBase[] = [
         customLink: 'https://gitee.com/MuiseDestiny/plugins/raw/master/zotero-style.xpi',
       },
       {
+        targetZoteroVersion: '9',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-style/releases/download/5.2.3/zotero-style.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-style/releases/download/5.2.3/zotero-style.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'custom',
+        customLink: 'https://github.com/MuiseDestiny/zotero-style/releases/download/5.2.3/zotero-style.xpi',
+      },
+      {
         targetZoteroVersion: '6',
         tagName: 'custom',
         customLink: 'https://github.com/MuiseDestiny/zotero-style/releases/download/2.8.0/ethereal-style.xpi',
@@ -3045,6 +4716,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'mxlapan/zotero-prism',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-prism.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-prism.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-prism.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-prism.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-prism.xpi',
+      },
       {
         targetZoteroVersion: '11',
         tagName: 'v1.0.2-beta.1',
@@ -3062,6 +4758,21 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '9',
+        tagName: 'v0.11.2',
+        assetName: 'geyi-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.11.2',
+        assetName: 'geyi-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.11.2',
+        assetName: 'geyi-translator.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
         tagName: 'v0.10.4',
         assetName: 'geyi-translator.xpi',
       },
@@ -3075,6 +4786,11 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'NebulaRaven/zotero-refolio',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.3.0',
+        assetName: 'refolio-1.3.0.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.2.1',
@@ -3103,6 +4819,34 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'Ning703/zotero-excel-column-resize',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.2',
+        assetName: 'zotero-excel-column-resize-0.1.2.xpi',
+      },
+    ],
+    tags: [
+      'interface',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'Noahxie83/zotero-lexibridge',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.3.1',
+        assetName: 'lexibridge-1.3.1.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'Noahxie83/zotero-local-mdx-click',
     releases: [
       {
@@ -3119,6 +4863,16 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'NoEdgeAI/Doc2XZoteroPlugin',
     releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.1.29',
+        assetName: 'doc2x-ai-translate.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.1.29',
+        assetName: 'doc2x-ai-translate.xpi',
+      },
       {
         targetZoteroVersion: '8',
         tagName: 'v1.1.18',
@@ -3144,6 +4898,21 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'NoEdgeAI/Doc2XZoteroPlugin9',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.1.31',
+        assetName: 'doc2x-ai-translate.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.1.31',
+        assetName: 'doc2x-ai-translate.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.1.31',
+        assetName: 'doc2x-ai-translate.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.1.20',
@@ -3181,7 +4950,7 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v4.0.1',
+        tagName: 'v4.0.4',
         assetName: 'linter-for-zotero.xpi',
       },
       {
@@ -3198,6 +4967,11 @@ export const plugins: PluginInfoBase[] = [
         targetZoteroVersion: '6',
         tagName: '0.4.4',
         assetName: 'zotero-format-metadata-0.4.5.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v4.0.1',
+        assetName: 'linter-for-zotero.xpi',
       },
     ],
     tags: [
@@ -3362,6 +5136,36 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'ouyangfeng2022/ZotMD',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.1',
+        assetName: 'zotmd.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.1',
+        assetName: 'zotmd.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.2.1',
+        assetName: 'zotmd.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.2.1',
+        assetName: 'zotmd.xpi',
+      },
+    ],
+    tags: [
+      'attachment',
+      'notes',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'pandaAIGC/zotero-doi-fix',
     releases: [
       {
@@ -3392,8 +5196,53 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'panhh0804/folio-zotero',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.12',
+        assetName: 'Folio-1.0.12.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+      'notes',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'papersgpt/papersgpt-for-zotero',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'papersgpt-v2.2.0',
+        assetName: 'papersgpt-v2.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'papersgpt-v2.2.0',
+        assetName: 'papersgpt-v2.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'papersgpt-v2.2.0',
+        assetName: 'papersgpt-v2.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'papersgpt-v2.2.0',
+        assetName: 'papersgpt-v2.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'papersgpt-v2.2.0',
+        assetName: 'papersgpt-v2.2.0.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'papersgpt-v2.2.0',
+        assetName: 'papersgpt-v2.2.0.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'papersgpt-v1.7.0',
@@ -3425,6 +5274,21 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.3.23',
+        assetName: 'xt-zotero-auto-classifier-1.3.23.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.3.23',
+        assetName: 'xt-zotero-auto-classifier-1.3.23.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.3.23',
+        assetName: 'xt-zotero-auto-classifier-1.3.23.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v1.3.22',
         assetName: 'xt-zotero-auto-classifier-1.3.22.xpi',
       },
@@ -3440,6 +5304,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.5.1',
+        assetName: 'zotero-gemini-notebook.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.5.1',
+        assetName: 'zotero-gemini-notebook.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.5.1',
+        assetName: 'zotero-gemini-notebook.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.5.1',
+        assetName: 'zotero-gemini-notebook.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.5.0',
         assetName: 'zotero-gemini-notebook.xpi',
       },
@@ -3453,7 +5337,11 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'Philippyang21/zotero-pdf-helper',
     summaryZh: '为扫描 PDF 添加文字层，整理高亮文字并补充书目信息。',
-    keywords: ['OCR', '扫描件', '文字层'],
+    keywords: [
+      'OCR',
+      '扫描件',
+      '文字层',
+    ],
     releases: [],
     tags: [
       'attachment',
@@ -3527,13 +5415,33 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v1.0.9',
-        assetName: 'zotero-pubpeer-1.0.9.xpi',
+        tagName: 'v1.0.10',
+        assetName: 'zotero-pubpeer-1.0.10.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.10',
+        assetName: 'zotero-pubpeer-1.0.10.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.10',
+        assetName: 'zotero-pubpeer-1.0.10.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.10',
+        assetName: 'zotero-pubpeer-1.0.10.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: 'v1.0.4',
         assetName: 'zotero-pubpeer-1.0.4.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.9',
+        assetName: 'zotero-pubpeer-1.0.9.xpi',
       },
     ],
     tags: [
@@ -3544,6 +5452,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'qingpy/zotero-pdf2md',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-pdf2md.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-pdf2md.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-pdf2md.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-pdf2md.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.0.1',
@@ -3559,6 +5487,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'QinSihan/zotero-paper-partner',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.2',
+        assetName: 'paper-partner.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.2',
+        assetName: 'paper-partner.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.2',
+        assetName: 'paper-partner.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.2',
+        assetName: 'paper-partner.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.1.1',
@@ -3588,6 +5536,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'qiwei-ma/zotero-pdf-setHorizontal',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.3',
+        assetName: 'set-horizontal-scroll.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.3',
+        assetName: 'set-horizontal-scroll.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.3',
+        assetName: 'set-horizontal-scroll.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.3',
+        assetName: 'set-horizontal-scroll.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.1.2',
@@ -3621,6 +5589,16 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'qrkks/zotero-annotation-markdown',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.16.4',
+        assetName: 'zotero-annotation-markdown.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.16.4',
+        assetName: 'zotero-annotation-markdown.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.12.1',
@@ -3716,17 +5694,72 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
-    repo: 'redleafnew/delitemwithatt',
+    repo: 'RedkieZhang717/vocabu_text',
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v0.5.0',
+        tagName: 'v2.6.2',
+        assetName: 'zotero-vocab-book.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v2.6.2',
+        assetName: 'zotero-vocab-book.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v2.6.2',
+        assetName: 'zotero-vocab-book.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v2.6.2',
+        assetName: 'zotero-vocab-book.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+      'notes',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'redleafnew/delitemwithatt',
+    releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.5.1',
+        assetName: 'del-item-with-attachment.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.5.1',
+        assetName: 'del-item-with-attachment.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.5.1',
+        assetName: 'del-item-with-attachment.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.5.1',
+        assetName: 'del-item-with-attachment.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.5.1',
         assetName: 'del-item-with-attachment.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: '0.1.06',
         assetName: 'delitemwithatt.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.5.0',
+        assetName: 'del-item-with-attachment.xpi',
       },
     ],
     tags: [
@@ -3792,6 +5825,36 @@ export const plugins: PluginInfoBase[] = [
         assetName: 'zotero-better-bibtex-9.0.27.xpi',
       },
       {
+        targetZoteroVersion: '11',
+        tagName: 'v9.0.77',
+        assetName: 'zotero-better-bibtex-9.0.77.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v9.0.77',
+        assetName: 'zotero-better-bibtex-9.0.77.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v9.0.77',
+        assetName: 'zotero-better-bibtex-9.0.77.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v9.0.77',
+        assetName: 'zotero-better-bibtex-9.0.77.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v7.0.76',
+        assetName: 'zotero-better-bibtex-7.0.76.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'v6.7.269',
+        assetName: 'zotero6-better-bibtex-6.7.269.xpi',
+      },
+      {
         targetZoteroVersion: '10',
         tagName: 'v9.0.71',
         assetName: 'zotero-better-bibtex-9.0.71.xpi',
@@ -3805,16 +5868,6 @@ export const plugins: PluginInfoBase[] = [
         targetZoteroVersion: '8',
         tagName: 'v9.0.71',
         assetName: 'zotero-better-bibtex-9.0.71.xpi',
-      },
-      {
-        targetZoteroVersion: '7',
-        tagName: 'v7.0.76',
-        assetName: 'zotero-better-bibtex-7.0.76.xpi',
-      },
-      {
-        targetZoteroVersion: '6',
-        tagName: 'v6.7.269',
-        assetName: 'zotero6-better-bibtex-6.7.269.xpi',
       },
       {
         targetZoteroVersion: '10',
@@ -3833,13 +5886,33 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v1.0.2',
-        assetName: 'zotero-folder-import-1.0.2.xpi',
+        tagName: 'builds',
+        assetName: 'zotero-folder-import-1.0.2.0076.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'builds',
+        assetName: 'zotero-folder-import-1.0.2.0076.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'builds',
+        assetName: 'zotero-folder-import-1.0.2.0076.xpi',
       },
       {
         targetZoteroVersion: '7',
         tagName: 'v0.0.10',
         assetName: 'zotero-folder-import-0.0.10.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'v0.0.9',
+        assetName: 'zotero-folder-import-0.0.9.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.2',
+        assetName: 'zotero-folder-import-1.0.2.xpi',
       },
       {
         targetZoteroVersion: '6',
@@ -3857,6 +5930,31 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.0.15',
+        assetName: 'zotero-open-pdf-1.0.15.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.0.15',
+        assetName: 'zotero-open-pdf-1.0.15.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.0.15',
+        assetName: 'zotero-open-pdf-1.0.15.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.11',
+        assetName: 'zotero-open-pdf-1.0.11.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'v0.0.11',
+        assetName: 'zotero-open-pdf-0.0.11.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v1.0.14',
         assetName: 'zotero-open-pdf-1.0.14.xpi',
       },
@@ -3864,11 +5962,6 @@ export const plugins: PluginInfoBase[] = [
         targetZoteroVersion: '7',
         tagName: 'builds',
         assetName: 'zotero-open-pdf-1.0.11.105.xpi',
-      },
-      {
-        targetZoteroVersion: '6',
-        tagName: 'v0.0.11',
-        assetName: 'zotero-open-pdf-0.0.11.xpi',
       },
     ],
     tags: [
@@ -3946,7 +6039,10 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'roey-angel/zotero-semantic-tagger',
     summaryZh: '使用 Claude 从文库已有标签中自动选择标签，支持批量处理。',
-    keywords: ['自动标签', 'Claude'],
+    keywords: [
+      '自动标签',
+      'Claude',
+    ],
     releases: [],
     tags: [
       'ai',
@@ -3958,6 +6054,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'Royshare/zotero-spotlight',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.6.2',
+        assetName: 'zotero-spotlight.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.6.2',
+        assetName: 'zotero-spotlight.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.6.2',
+        assetName: 'zotero-spotlight.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.6.2',
+        assetName: 'zotero-spotlight.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.6.1',
@@ -3972,6 +6088,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'Rphone/zotero-tab-enhance',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.5.7',
+        assetName: 'tab-enhance.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.5.7',
+        assetName: 'tab-enhance.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.5.7',
+        assetName: 'tab-enhance.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.5.7',
+        assetName: 'tab-enhance.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.5.5',
@@ -4018,7 +6154,10 @@ export const plugins: PluginInfoBase[] = [
       'AI 对话',
     ],
     releases: [],
-    tags: ['ai', 'reader'],
+    tags: [
+      'ai',
+      'reader',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
@@ -4100,6 +6239,41 @@ export const plugins: PluginInfoBase[] = [
     repo: 'SciImage/zotero-attachment-scanner',
     releases: [
       {
+        targetZoteroVersion: '13',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.6.1',
+        assetName: 'attachmentscanner-0.6.1.xpi',
+      },
+      {
         targetZoteroVersion: '11',
         tagName: 'v0.5.1',
         assetName: 'attachmentscanner-0.5.1.xpi',
@@ -4127,7 +6301,11 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'serbernardo/zotero-assistente-ia',
     summaryZh: '使用用户配置的 AI 阅读、评价和比较论文，生成思维导图。',
-    keywords: ['AI Assistant', '论文问答', '思维导图'],
+    keywords: [
+      'AI Assistant',
+      '论文问答',
+      '思维导图',
+    ],
     releases: [],
     tags: [
       'ai',
@@ -4197,6 +6375,26 @@ export const plugins: PluginInfoBase[] = [
     repo: 'SolveSaint/RSSrch-for-Zotero',
     releases: [
       {
+        targetZoteroVersion: '13',
+        tagName: 'v1.1.7',
+        assetName: 'rssrch-v1.1.7.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v1.1.7',
+        assetName: 'rssrch-v1.1.7.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.1.7',
+        assetName: 'rssrch-v1.1.7.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.1.7',
+        assetName: 'rssrch-v1.1.7.xpi',
+      },
+      {
         targetZoteroVersion: '11',
         tagName: 'v1.1.2',
         assetName: 'rssrch-v1.1.2.xpi',
@@ -4225,6 +6423,41 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'SRT117/LitMTrans-Zotero',
     releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v2.1.5',
+        assetName: 'litmtrans-2.1.5.xpi',
+      },
       {
         targetZoteroVersion: '11',
         tagName: 'v2.1.1',
@@ -4272,6 +6505,31 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v5.1.2-beta.1',
+        assetName: 'zotero-ai-butler.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v5.1.2-beta.1',
+        assetName: 'zotero-ai-butler.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v5.1.2-beta.1',
+        assetName: 'zotero-ai-butler.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v5.1.2-beta.1',
+        assetName: 'zotero-ai-butler.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: 'v5.1.2-beta.1',
+        assetName: 'zotero-ai-butler.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v4.1.0-beta.2',
         assetName: 'zotero-ai-butler.xpi',
       },
@@ -4300,6 +6558,26 @@ export const plugins: PluginInfoBase[] = [
     repo: 'stevepowell99/causalmap-zotero',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v0.4.7',
+        assetName: 'causalmap-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.4.7',
+        assetName: 'causalmap-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.4.7',
+        assetName: 'causalmap-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.4.7',
+        assetName: 'causalmap-zotero.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v0.4.5',
         assetName: 'causalmap-zotero.xpi',
@@ -4314,6 +6592,16 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'STRUGGLE1999/zotero-ai-notes',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.5.0',
+        assetName: 'zotero-ai-notes-0.5.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.5.0',
+        assetName: 'zotero-ai-notes-0.5.0.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.4.1',
@@ -4331,6 +6619,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v1.9.7',
+        assetName: 'zotero-pdf2zh-pro.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.9.7',
+        assetName: 'zotero-pdf2zh-pro.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.9.7',
+        assetName: 'zotero-pdf2zh-pro.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.0.0',
+        assetName: 'zotero-pdf2zh-pro.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v1.8.1',
         assetName: 'zotero-pdf2zh-pro.xpi',
       },
@@ -4342,11 +6650,6 @@ export const plugins: PluginInfoBase[] = [
       {
         targetZoteroVersion: '8',
         tagName: 'v1.8.1',
-        assetName: 'zotero-pdf2zh-pro.xpi',
-      },
-      {
-        targetZoteroVersion: '7',
-        tagName: 'v1.0.0',
         assetName: 'zotero-pdf2zh-pro.xpi',
       },
       {
@@ -4395,6 +6698,16 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.6.8',
+        assetName: 'paper-chat-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.6.8',
+        assetName: 'paper-chat-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.6.7',
         assetName: 'paper-chat-for-zotero.xpi',
       },
@@ -4408,6 +6721,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'swcxito/zotero-ai-bar',
     releases: [
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v1.6.10',
+        assetName: 'zotero-ai-bar.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.6.10',
+        assetName: 'zotero-ai-bar.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.6.10',
+        assetName: 'zotero-ai-bar.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.6.10',
+        assetName: 'zotero-ai-bar.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.6.10',
+        assetName: 'zotero-ai-bar.xpi',
+      },
       {
         targetZoteroVersion: '11',
         tagName: 'v1.6.7',
@@ -4453,6 +6791,31 @@ export const plugins: PluginInfoBase[] = [
         assetName: 'ai-paper-chat.xpi',
       },
       {
+        targetZoteroVersion: '11',
+        tagName: 'V3.9.6',
+        assetName: 'ai-paper-chat.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'V3.9.6',
+        assetName: 'ai-paper-chat.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'V3.9.6',
+        assetName: 'ai-paper-chat.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'V3.9.6',
+        assetName: 'ai-paper-chat.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'V3.9.6',
+        assetName: 'ai-paper-chat.xpi',
+      },
+      {
         targetZoteroVersion: '10',
         tagName: 'V3.7.0',
         assetName: 'ai-paper-chat.xpi',
@@ -4469,12 +6832,37 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '11',
-        tagName: 'V10.0.1',
+        tagName: 'V11.0.1',
+        assetName: 'zotero-addons.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'V11.0.1',
+        assetName: 'zotero-addons.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'V11.0.1',
+        assetName: 'zotero-addons.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'V11.0.1',
+        assetName: 'zotero-addons.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'V11.0.1',
         assetName: 'zotero-addons.xpi',
       },
       {
         targetZoteroVersion: '6',
         tagName: '0.6.0-6',
+        assetName: 'zotero-addons.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'V10.0.1',
         assetName: 'zotero-addons.xpi',
       },
     ],
@@ -4543,6 +6931,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'tenglvjun/mktero',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.8.1',
+        assetName: 'mktero-0.8.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.8.1',
+        assetName: 'mktero-0.8.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.8.1',
+        assetName: 'mktero-0.8.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.8.1',
+        assetName: 'mktero-0.8.1.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.5.0',
@@ -4672,6 +7080,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.4.2',
+        assetName: 'zotero-ccf-info.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.4.2',
+        assetName: 'zotero-ccf-info.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.4.2',
+        assetName: 'zotero-ccf-info.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.4.2',
+        assetName: 'zotero-ccf-info.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.4.1',
         assetName: 'zotero-ccf-info.xpi',
       },
@@ -4699,6 +7127,31 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'UB-Mannheim/zotero-ocr',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: '0.9.7',
+        assetName: 'zotero-ocr-0.9.7.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: '0.9.7',
+        assetName: 'zotero-ocr-0.9.7.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: '0.9.7',
+        assetName: 'zotero-ocr-0.9.7.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: '0.9.7',
+        assetName: 'zotero-ocr-0.9.7.xpi',
+      },
+      {
+        targetZoteroVersion: '6',
+        tagName: '0.9.7',
+        assetName: 'zotero-ocr-0.9.7.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: '0.9.6',
@@ -4740,8 +7193,58 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'Veiluna/babeldoc-for-zotero',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.8.2',
+        assetName: 'babeldoc-for-zotero-0.8.2.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.8.2',
+        assetName: 'babeldoc-for-zotero-0.8.2.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.8.2',
+        assetName: 'babeldoc-for-zotero-0.8.2.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.8.2',
+        assetName: 'babeldoc-for-zotero-0.8.2.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'Visterainer/zoteroAI',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'custom',
+        customLink: 'https://github.com/Visterainer/aidea-zotero/releases/download/v3.7.0/AIdea-3.7.0.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'custom',
+        customLink: 'https://github.com/Visterainer/aidea-zotero/releases/download/v3.7.0/AIdea-3.7.0.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'custom',
+        customLink: 'https://github.com/Visterainer/aidea-zotero/releases/download/v3.7.0/AIdea-3.7.0.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'custom',
+        customLink: 'https://github.com/Visterainer/aidea-zotero/releases/download/v3.7.0/AIdea-3.7.0.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'custom',
@@ -4805,6 +7308,50 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'wangzikai01/zotero-row-colors',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.1',
+        assetName: 'zotero-row-colors-1.0.1.xpi',
+      },
+    ],
+    tags: [
+      'interface',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'Waynehfut/Paper-Miner',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.16',
+        assetName: 'paper-miner.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.16',
+        assetName: 'paper-miner.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.16',
+        assetName: 'paper-miner.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.1.16',
+        assetName: 'paper-miner.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'metadata',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'wcmendes/MdBundle-for-Zotero',
     releases: [
       {
@@ -4816,6 +7363,51 @@ export const plugins: PluginInfoBase[] = [
     tags: [
       'attachment',
       'notes',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'weilr/zotero-scholium',
+    releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.2.1',
+        assetName: 'scholium.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'reader',
     ],
     discoverReleases: true,
   },
@@ -4837,6 +7429,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'wileyyugioh/zotmoov',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: '1.2.34',
+        assetName: 'zotmoov-1.2.34-fx.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: '1.2.34',
+        assetName: 'zotmoov-1.2.34-fx.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: '1.2.34',
+        assetName: 'zotmoov-1.2.34-fx.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: '1.2.34',
+        assetName: 'zotmoov-1.2.34-fx.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: '1.2.33',
@@ -4934,7 +7546,7 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v2.6.1',
+        tagName: 'v2.6.3',
         assetName: 'actions-and-tags-for-zotero.xpi',
       },
       {
@@ -4952,6 +7564,11 @@ export const plugins: PluginInfoBase[] = [
         tagName: 'v0.3.0',
         assetName: 'zotero-tag.xpi',
       },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v2.6.1',
+        assetName: 'actions-and-tags-for-zotero.xpi',
+      },
     ],
     tags: [
       'utility',
@@ -4961,7 +7578,13 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'windingwind/zotero-better-notes',
     summaryZh: '将文献阅读与双链笔记结合，支持 Markdown 笔记和笔记导出。',
-    keywords: ['笔记', '双链', 'Markdown', '导出笔记', '知识管理'],
+    keywords: [
+      '笔记',
+      '双链',
+      'Markdown',
+      '导出笔记',
+      '知识管理',
+    ],
     releases: [
       {
         targetZoteroVersion: '10',
@@ -5023,6 +7646,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'WindLX/paper_plane_x',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.3',
+        assetName: 'paper-plane-x.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.3',
+        assetName: 'paper-plane-x.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.2.3',
+        assetName: 'paper-plane-x.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.2.3',
+        assetName: 'paper-plane-x.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.2.1',
@@ -5115,8 +7758,38 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'WWeiyiWang/BiRead',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.1.28-beta.31',
+        assetName: 'BiRead-0.1.28-beta.31.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.1.28-beta.31',
+        assetName: 'BiRead-0.1.28-beta.31.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.1.28-beta.31',
+        assetName: 'BiRead-0.1.28-beta.31.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+      'ai',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'wyhao2333/zotero-paperpilot',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.2',
+        assetName: 'paperpilot-1.0.2.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.0.1',
@@ -5177,6 +7850,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'V0.6.1',
+        assetName: 'margin-notes-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'V0.6.1',
+        assetName: 'margin-notes-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'V0.6.1',
+        assetName: 'margin-notes-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'V0.6.1',
+        assetName: 'margin-notes-0.6.1.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'V0.5.0',
         assetName: 'margin-notes-0.5.0.xpi',
       },
@@ -5189,6 +7882,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'XiaoDuComrade/zotero-reading-heatmap',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'V7.7.10',
+        assetName: 'reading-heatmap-0.7.10.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'V7.7.10',
+        assetName: 'reading-heatmap-0.7.10.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'V7.7.10',
+        assetName: 'reading-heatmap-0.7.10.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'V7.7.10',
+        assetName: 'reading-heatmap-0.7.10.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'V0.7.7',
@@ -5203,6 +7916,16 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'xiaoxiao937/li-yue-zotero',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.3.1',
+        assetName: 'li-yue-1.3.1.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.3.1',
+        assetName: 'li-yue-1.3.1.xpi',
+      },
       {
         targetZoteroVersion: '9',
         tagName: 'v1.3.0',
@@ -5219,6 +7942,26 @@ export const plugins: PluginInfoBase[] = [
     repo: 'xiaoxuan353/zotero-paper-radar',
     releases: [
       {
+        targetZoteroVersion: '10',
+        tagName: 'v0.2.4',
+        assetName: 'paper-radar.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.2.4',
+        assetName: 'paper-radar.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.2.4',
+        assetName: 'paper-radar.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.2.4',
+        assetName: 'paper-radar.xpi',
+      },
+      {
         targetZoteroVersion: '9',
         tagName: 'v0.2.3',
         assetName: 'paper-radar.xpi',
@@ -5227,6 +7970,21 @@ export const plugins: PluginInfoBase[] = [
     tags: [
       'ai',
       'metadata',
+    ],
+    discoverReleases: true,
+  },
+  {
+    repo: 'xiuxiuki/zotero-pdf2zh-batch',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.0.5pre',
+        assetName: 'zotero-pdf2zh-batch-1.0.5pre.xpi',
+      },
+    ],
+    tags: [
+      'ai',
+      'attachment',
     ],
     discoverReleases: true,
   },
@@ -5247,6 +8005,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'xuhan-rgb/zotero-ai-sidebar',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.8.20',
+        assetName: 'zotero-ai-sidebar.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.8.20',
+        assetName: 'zotero-ai-sidebar.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.8.20',
+        assetName: 'zotero-ai-sidebar.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.8.20',
+        assetName: 'zotero-ai-sidebar.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v0.8.16',
@@ -5279,6 +8057,20 @@ export const plugins: PluginInfoBase[] = [
     discoverReleases: true,
   },
   {
+    repo: 'xujialiu/Zotero-OpenReader',
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.17.1',
+        assetName: 'Zotero-OpenReader.xpi',
+      },
+    ],
+    tags: [
+      'reader',
+    ],
+    discoverReleases: true,
+  },
+  {
     repo: 'xujialiu/Zotero-TTS',
     releases: [
       {
@@ -5307,6 +8099,21 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'V3.3.19',
+        assetName: 'paper-mind.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'V3.3.19',
+        assetName: 'paper-mind.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'V3.3.19',
+        assetName: 'paper-mind.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'V3.3.4',
         assetName: 'paper-mind.xpi',
       },
@@ -5326,7 +8133,11 @@ export const plugins: PluginInfoBase[] = [
     repo: 'y-0768/zotero-manuscript-grid',
     nameZh: '稿纸格子',
     summaryZh: '在 PDF 阅读器中插入一字一格的稿纸式文字批注。',
-    keywords: ['稿纸', '格子', '批注'],
+    keywords: [
+      '稿纸',
+      '格子',
+      '批注',
+    ],
     releases: [],
     tags: [
       'reader',
@@ -5401,13 +8212,18 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
-        tagName: 'v0.4.0',
-        assetName: 'zotlink-0.4.0.xpi',
+        tagName: 'v0.8.0',
+        assetName: 'zotlink-0.8.0.xpi',
       },
       {
         targetZoteroVersion: '9',
         tagName: 'v0.3.0',
         assetName: 'zotlink-0.3.0.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.4.0',
+        assetName: 'zotlink-0.4.0.xpi',
       },
       {
         targetZoteroVersion: '10',
@@ -5424,7 +8240,11 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'yiiwang118/zotero-glossa',
     summaryZh: '支持文献对话、划词翻译、公式显示，并将回答保存为笔记。',
-    keywords: ['论文问答', '划词翻译', '笔记'],
+    keywords: [
+      '论文问答',
+      '划词翻译',
+      '笔记',
+    ],
     releases: [],
     tags: [
       'ai',
@@ -5437,6 +8257,41 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'yilewang/llm-for-zotero',
     releases: [
+      {
+        targetZoteroVersion: '13',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '12',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '11',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v3.9.16',
+        assetName: 'llm-for-zotero.xpi',
+      },
       {
         targetZoteroVersion: '11',
         tagName: 'v3.9.11',
@@ -5560,8 +8415,17 @@ export const plugins: PluginInfoBase[] = [
       '科研通',
       '附件核验',
     ],
-    releases: [],
-    tags: ['attachment', 'integration'],
+    releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v0.8.0',
+        assetName: 'zotero-fulltext-assistant-0.8.0.xpi',
+      },
+    ],
+    tags: [
+      'attachment',
+      'integration',
+    ],
     discoverReleases: true,
     publishInShadow: true,
   },
@@ -5657,6 +8521,26 @@ export const plugins: PluginInfoBase[] = [
     releases: [
       {
         targetZoteroVersion: '10',
+        tagName: 'v0.6.4',
+        assetName: 'confucius.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v0.6.4',
+        assetName: 'confucius.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v0.6.4',
+        assetName: 'confucius.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v0.6.4',
+        assetName: 'confucius.xpi',
+      },
+      {
+        targetZoteroVersion: '10',
         tagName: 'v0.6.0-beta.1',
         assetName: 'confucius.xpi',
       },
@@ -5690,6 +8574,26 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'ZorroStardust/zotero-vim-plus',
     releases: [
+      {
+        targetZoteroVersion: '10',
+        tagName: 'v1.11.0',
+        assetName: 'zoetero-vim-plus.xpi',
+      },
+      {
+        targetZoteroVersion: '9',
+        tagName: 'v1.11.0',
+        assetName: 'zoetero-vim-plus.xpi',
+      },
+      {
+        targetZoteroVersion: '8',
+        tagName: 'v1.11.0',
+        assetName: 'zoetero-vim-plus.xpi',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'v1.11.0',
+        assetName: 'zoetero-vim-plus.xpi',
+      },
       {
         targetZoteroVersion: '10',
         tagName: 'v1.10.0',
