@@ -4823,25 +4823,9 @@ export const plugins: PluginInfoBase[] = [
     repo: 'wdcpclover/ai4paper',
     summaryZh: '读文献、写论文、投期刊:AI 速搜、全文翻译、文献解读与精读、期刊分区与影响因子。',
     keywords: ['AI4Paper', '阅读宇宙', '文献速搜', '全文翻译', '精读', '期刊分区', '影响因子', '投稿'],
-    releases: [
-      {
-        targetZoteroVersion: '7',
-        tagName: 'latest',
-      },
-      {
-        targetZoteroVersion: '8',
-        tagName: 'latest',
-      },
-      {
-        targetZoteroVersion: '9',
-        tagName: 'latest',
-      },
-      {
-        targetZoteroVersion: '10',
-        tagName: 'latest',
-      },
-    ],
+    releases: [],
     tags: ['ai', 'productivity', 'reader', 'notes', 'metadata', 'interface', 'visualization'],
+    discoverReleases: true,
   },
   {
     repo: 'WildDataX/suppr-zotero-plugin',
